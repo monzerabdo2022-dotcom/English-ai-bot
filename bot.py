@@ -62,7 +62,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
                     "content": user_text
                 }
             ],
-            model="llama-3.3-70b-specdec",
+            model="llama-3.3-70b-versatile", # الموديل الجديد المحدث والمستقر
             temperature=0.7,
         )
         
